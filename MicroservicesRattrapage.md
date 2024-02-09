@@ -19,15 +19,14 @@ Les modèles basés sur les événements, tels que le sourcing d'événements et
 La persistance polyglotte fait référence à la pratique consistant à utiliser plusieurs technologies de stockage de données au sein d'une seule application ou d'un seul système. Dans une architecture de microservices, différents services peuvent avoir des exigences diverses en matière de stockage de données, ce qui conduit à l'adoption de diverses bases de données, notamment des bases de données relationnelles, des bases de données NoSQL, des magasins de valeurs clés, etc.
 
 Les avantages de la persistance polyglotte sontt  :
-
-- **Performances optimisées :** 
-- **Flexibilité :** 
-- **Risque réduit :** 
+- **Performances optimisées ** 
+- **Flexibilité ** 
+- **Risque réduit ** 
 
 Les défis de la persistance polyglotte comprennent :
 
-- **Complexité :** 
-- **Frais opérationnels :** 
+- **Complexité ** 
+- **Frais opérationnels ** 
 
 ## Q4 : Conteneurisation et orchestration
 La conteneurisation illustrée par des technologies telles que Docker et les plateformes d'orchestration telles que Kubernetes, jouent un rôle crucial dans le déploiement et la gestion des microservices à grande échelle
@@ -45,7 +44,7 @@ Une passerelle API est un point d'entrée centralisé pour la communication clie
 Le rôle d'une passerelle API dans la gestion de la communication entre les clients et les microservices est :
 
 - **Routage des requêtes :** API Gateway achemine les requêtes entrantes vers le microservice correspondant en fonction de règles et de configurations prédéfinies.
-- **Traduction de protocole :** 
-- **Sécurité :** 
-- **Gestion du trafic :** 
+- **Traduction de protocole ** 
+- **Sécurité ** 
+- **Gestion du trafic ** 
 En servant de point d'entrée unique pour la communication client, une passerelle API simplifie les interactions des clients avec l'écosystème de microservices, améliore la sécurité et permet un contrôle et une surveillance centralisés du trafic API.
