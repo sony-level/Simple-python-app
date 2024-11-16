@@ -1,6 +1,6 @@
 #Utilistaion d'une image Node.js prete a l'emploi depuis docker
 
-FROM python:3.13.0rc2-slim
+FROM python:3.14.0a1-slim
 
 #Definir le reprtoir de travail duans le contenuer 
 
